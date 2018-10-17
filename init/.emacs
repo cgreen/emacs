@@ -21,6 +21,7 @@
 ;; Add MELPA repository and initialize packages
 (load "init-melpa")
 
+;; Initialize installed packages
 (load "init-helm")
 (load "init-magit")
 (load "init-org")
