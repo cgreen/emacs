@@ -1,0 +1,7 @@
+# Backup files
+*~
+\#*
+.#*
+
+# Compiled lisp files
+*.elc
