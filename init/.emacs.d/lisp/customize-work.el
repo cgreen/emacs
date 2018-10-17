@@ -19,7 +19,7 @@
     ("c:/Users/craigree/Documents/Org/home.org" "c:/Users/craigree/Documents/Org/DRI_Experience.org" "c:/Users/craigree/Documents/Org/IssuePortal.org" "c:/Users/craigree/Documents/Org/shiproom.org" "c:/Users/craigree/Documents/Org/wdgbuild.org" "c:/Users/craigree/Documents/Org/work.org")))
  '(package-selected-packages
    (quote
-    (helm nyan-mode zweilight-theme twilight-theme tide purple-haze-theme pastelmac-theme org obsidian-theme nova-theme nimbus-theme monokai-theme monokai-alt-theme molokai-theme lush-theme lavender-theme js2-mode gruber-darker-theme exotica-theme darkokai-theme dark-mint-theme cyberpunk-theme csharp-mode base16-theme auctex abyss-theme))))
+    (magit helm nyan-mode zweilight-theme twilight-theme tide purple-haze-theme pastelmac-theme org obsidian-theme nova-theme nimbus-theme monokai-theme monokai-alt-theme molokai-theme lush-theme lavender-theme js2-mode gruber-darker-theme exotica-theme darkokai-theme dark-mint-theme cyberpunk-theme csharp-mode base16-theme auctex abyss-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

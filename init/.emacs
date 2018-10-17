@@ -16,12 +16,13 @@
 ;; Packages we want installed by default
 ;; TODO: Write code to install these if not already
 (defvar my-favorite-packages
-  '(auctex base16-themes helm js2-mode org tide))
+  '(auctex base16-themes helm js2-mode magit org tide))
 
 ;; Add MELPA repository and initialize packages
 (load "init-melpa")
 
 (load "init-helm")
+(load "init-magit")
 (load "init-org")
 
 ;; Enable JS2 major mode
