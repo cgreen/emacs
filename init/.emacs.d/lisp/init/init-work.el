@@ -25,5 +25,5 @@
 (add-hook 'after-init-hook (lambda () (load-theme 'base16-monokai)))
 
 ;; This will keep customization from polluting our init file
-(setq-default custom-file "customize-work.el")
+(setq-default custom-file "~/.emacs.d/lisp/init/customize-work.el")
 (load custom-file)

@@ -23,5 +23,5 @@
 ;(load-theme 'ahungry)
 
 ;; This will keep customization from polluting our init file
-(setq-default custom-file "customize-home.el")
+(setq-default custom-file "~/.emacs.d/lisp/init/customize-home.el")
 (load custom-file)
