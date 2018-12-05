@@ -18,6 +18,14 @@
 (defvar my-favorite-packages
   '(auctex base16-themes helm js2-mode magit org tide))
 
+(defun get-fullpath (@file-relative-path)
+  "Return the full path of *file-relative-path, relative to caller's file location."
+  (expand-file-name (file-name-directory (or load-file-name buffer-file-name)) @file-relative-path))
+
+;; This needs to be loaded before the packages are initialized, because we're hacking the load-path
+;; to work around a bug in the auctex package.
+(load "init-auctex")
+
 ;; Add MELPA repository and initialize packages
 (load "init-melpa")
 
@@ -25,6 +33,7 @@
 (load "init-helm")
 (load "init-magit")
 (load "init-org")
+(load "init-tide")
 
 ;; Enable JS2 major mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
