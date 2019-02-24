@@ -38,7 +38,7 @@
 ;; Enable JS2 major mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 
-(setq home-computers '("CRAIG-RAMPAGE"))
+(setq home-computers '("CRAIG-RAMPAGE" "Mynoghra"))
 (setq work-computers '("CRAIGREE-W530" "CRAIGREE-Z440" "CRAIGREE-Z800"))
 
 (when (member (system-name) home-computers) (load "init-home"))
